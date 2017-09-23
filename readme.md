@@ -1,11 +1,11 @@
-#Try of BRPC
+# Try of BRPC
 What's BRPC: A RPC framework from BAIDU in c-plus-plus.  
 Why try: For the sake of *BRPC being very Huo* these days.   
 Which tools: ```Visual Studio Community 2017(the best IDE in the universe)```、```Ubuntu 14```
 
-##Prepare
+## Prepare
 
-###Compile LIBS
+### Compile LIBS
 
 Following the [QUICK START](https://github.com/brpc/brpc/blob/master/docs/cn/getting_started.md) from BRPC project:
 
@@ -21,11 +21,11 @@ $make
 $tar -zcvf brpc.tar.gz output/*  
 ```
 
-###Copy include file and lib file
+### Copy include file and lib file
 - Download and unzip `brpc.tar.gz/output/include/*` to Windows include directory. In my machine the default including path is `C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\Linux\include\usr\include`.
 - Copy the LIBS `brpc/output/lib/*` to `/usr/lib`
 - Copy `/brpc/output/include/*` to `/usr/include`
-##Simple use of BRPC
+## Simple use of BRPC
 
 ### Write your proto file:proto/echo.proto
 
@@ -112,7 +112,7 @@ Add head file `EchoServiceImpl.h` implement EchoService.
 ```
 Implements the functions according to the [实现生成的service接口](https://github.com/brpc/brpc/blob/master/docs/cn/server.md#实现生成的service接口)
 
-##Advice
+## Advice
 
 - Add a macro `GFLAGS_NS`
 ```
@@ -124,12 +124,12 @@ Implements the functions according to the [实现生成的service接口](https:/
 
 - Simple [doc]()(CN)
 
-##Test Service by HTTP
+## Test Service by HTTP
 Every Protobuf Service is HTTP Enabled, so we can test it by CURL.
 
 $ curl -d '{"message":"hello"}' http://192.168.0.103:8000/EchoService/Echo
 
-##NEXT
+## NEXT
 Implement more complex service, including:
 
 - GPSService:Read/Write GPS locations for my app.
