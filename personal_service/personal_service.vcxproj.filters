@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="readme.md" />
+    <None Include="proto\echo.proto">
+      <Filter>proto</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{43598fc8-1c1e-4d61-9a9d-9270c5e46d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{915f5767-87e1-43c3-b1b5-2bc788bab77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{5e3b47ff-f690-4412-a3d7-9818293092e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto_gen">
+      <UniqueIdentifier>{8722dff5-c8b7-425f-8157-78f8f8996621}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EchoServiceImpl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="proto_gen\echo.pb.cc">
+      <Filter>proto_gen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="proto_gen\echo.pb.h">
+      <Filter>proto_gen</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EchoServiceImpl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
