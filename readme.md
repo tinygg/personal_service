@@ -136,7 +136,7 @@ Every Protobuf Service is HTTP Enabled, so we can test it by CURL.
 ```
 $ curl -d '{"message":"hello"}' http://{your_ubuntu_debug_machine_ip}:8000/EchoService/Echo
 ```
-## NEXT
+## Next
 Implement more complex service, including:
 
 - GPSService:Read/Write GPS locations for my app.
