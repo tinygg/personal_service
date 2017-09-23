@@ -45,7 +45,7 @@ service EchoService {
 };
 ```
 
-more usage of b[protobuf](https://developers.google.com/protocol-buffers/docs/proto#options)。
+more usage of [protobuf](https://developers.google.com/protocol-buffers/docs/proto#options)。
 
 ### Generate and implement of service
 
