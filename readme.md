@@ -52,13 +52,11 @@ more usage of [protobuf](https://developers.google.com/protocol-buffers/docs/pro
 #### Generate proto service
 protoc command 
 
-[usage]
+[usage] `protoc --proto_path=IMPORT_PATH --cpp_out=DST_DIR --java_out=DST_DIR --python_out=DST_DIR path/to/file.proto`
 
-protoc --proto_path=IMPORT_PATH --cpp_out=DST_DIR --java_out=DST_DIR --python_out=DST_DIR path/to/file.proto
+`IMPORT_PATH` specifies a directory in which to look for `.proto` files when resolving import directives, use `-I` in short.
 
-IMPORT_PATH specifies a directory in which to look for .proto files when resolving import directives, `-I` in short.
-
-upload proto/* dir to ~/brpc/* in Ubuntu.
+upload proto file `path_to_your_project/proto/echo.proto`(Windows) to `~/brpc/*`(Ubuntu).
 
 ```  
 cd ~/brpc/
@@ -86,10 +84,10 @@ sudo mv google.protobuf.tar.gz ~/
 cd ~/
 sudo chown ubuntu:ubuntu google.protobuf.tar.gz
 ```
-download to windows, unzip and copy to including directory.
+download to Windows, unzip and copy to `including directory`.
 
 ...
-same way to pack /usr/lib/gflags/* as gflags.include.tar.gz, copy to windows including directory.
+same way to pack `/usr/lib/gflags/*` as `gflags.include.tar.gz` and copy to Windows `including directory`.
 
 #### Implement of service
 include the generated file `echo.pb.h` and `**echo.pb.cc**`.
