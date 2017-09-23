@@ -110,7 +110,7 @@ Add head file `EchoServiceImpl.h` implement EchoService.
 ```
 Implements the functions according to the guide of BRPC/[实现生成的service接口](https://github.com/brpc/brpc/blob/master/docs/cn/server.md#实现生成的service接口)
 
-## Advice
+## Advice and Doc
 
 - Add a macro `GFLAGS_NS`
 ```
@@ -122,10 +122,10 @@ Implements the functions according to the guide of BRPC/[实现生成的service�
 
 - Simple [doc](尝试使用BRPC.docx)(CN)
 
-## Test Service by HTTP
+## Test and Run
 1. Generating the project(remoting debug machine configured) will compile the project and put the `*.out` to the remote path `~/projects/personal_service`.
 
-2. Execute.
+2. Run.
 ```
 $cd ~/projects/personal_service/bin/x64/Debug
 $./personal_service.out
