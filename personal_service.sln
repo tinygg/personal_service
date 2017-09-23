@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41C7F7D4-1A81-4F1B-B773-E2AC03AFBCBF}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
+		尝试使用BRPC.docx = 尝试使用BRPC.docx
 	EndProjectSection
 EndProject
 Global
