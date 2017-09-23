@@ -108,7 +108,7 @@ Add head file `EchoServiceImpl.h` implement EchoService.
 			::google::protobuf::Closure* done);
 	};
 ```
-Implements the functions according to the [实现生成的service接口](https://github.com/brpc/brpc/blob/master/docs/cn/server.md#实现生成的service接口)
+Implements the functions according to the guide of BRPC/[实现生成的service接口](https://github.com/brpc/brpc/blob/master/docs/cn/server.md#实现生成的service接口)
 
 ## Advice
 
