@@ -21,7 +21,7 @@ $make
 $tar -zcvf brpc.tar.gz output/*  
 ```
 
-### Copy include file and lib file
+### Copy include files and lib files
 - Download and unzip `brpc.tar.gz/output/include/*` to Windows include directory. In my machine the default including path is `C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\Linux\include\usr\include`.
 - Copy the LIBS `brpc/output/lib/*` to `/usr/lib`
 - Copy `/brpc/output/include/*` to `/usr/include`
