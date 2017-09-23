@@ -72,9 +72,9 @@ cd ~/brpc/proto_gen
 
 output: `echo.pb.cc`、`echo.pb.h`
 
-download proto_gen file from Ubuntu to Windows project.
+download directory `proto_gen/*`  from Ubuntu to Windows project dir.
 
-include `../proto_gen/echo.pb.h` file in the project，and implement EchoService:
+include `../proto_gen/echo.pb.h` file in the project then implement EchoService:
 
 pack the protobuf header files.
 ```
